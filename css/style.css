@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.navigation{
+    background-color: goldenrod;
+    margin: 0 auto;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+ul.flex{
+    justify-content: space-between;
+    border: 2px dotted black;
+}
+
